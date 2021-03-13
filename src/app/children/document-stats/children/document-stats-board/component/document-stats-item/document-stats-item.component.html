@@ -1,0 +1,7 @@
+<div fxFlex style="position: relative;">
+  <div [ngStyle] = "{'height.%': calcHeight()}" class="stats-value-box"></div>
+  <div class="stats-value" fxLayout="column" fxLayoutGap="4px">
+    <span class="document-number">{{month.documenti}} Doc.</span>
+    <span class="import">{{month.importo | currency: 'EUR'}}</span>
+  </div>
+</div>

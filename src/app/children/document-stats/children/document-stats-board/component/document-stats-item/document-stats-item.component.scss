@@ -1,0 +1,24 @@
+.stats-value-box {
+  background-color: #E0F1EB;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.stats-value {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font-size: 12px;
+  width: 100%;
+
+  .import {
+    color: green;
+    font-weight: 500;
+  }
+
+  .document-number {
+    color: grey;
+  }
+}

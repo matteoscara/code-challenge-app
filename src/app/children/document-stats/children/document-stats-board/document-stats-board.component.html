@@ -1,0 +1,8 @@
+<div fxLayout="row" class="board" *ngIf="monthList">
+  <div *ngFor="let month of monthList.mesi" fxLayout="column" class="box">
+    <div class="header" fxLayoutAlign="start center">
+      <p>{{month.nome}}</p>
+    </div>
+    <app-document-stats-item [month]="month" [max]="max" [min]="min" fxFlex></app-document-stats-item>
+  </div>
+</div>
