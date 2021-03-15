@@ -1,5 +1,9 @@
 .board {
   border-left: 1px solid grey;
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 
   .box {
     width: 80px;
@@ -16,5 +20,11 @@
       color: #0D97D5;
       font-weight: 500;
     }
+  }
+  .selected {
+    box-shadow: 0 3px 0 #0D97D5;
+  }
+  .selecting {
+    box-shadow: 0 3px 0 #00d505;
   }
 }

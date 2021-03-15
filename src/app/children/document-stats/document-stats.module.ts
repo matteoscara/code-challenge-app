@@ -4,11 +4,12 @@ import { DocumentStatsBoardComponent } from './children/document-stats-board/doc
 import {DocumentStatsRoutingModule} from './document-stats-routing.module';
 import {FlexModule} from '@angular/flex-layout';
 import { DocumentStatsItemComponent } from './children/document-stats-board/component/document-stats-item/document-stats-item.component';
+import { DocumentStatsSelectedComponent } from './children/document-stats-board/component/document-stats-selected/document-stats-selected.component';
 
 
 
 @NgModule({
-  declarations: [DocumentStatsBoardComponent, DocumentStatsItemComponent],
+  declarations: [DocumentStatsBoardComponent, DocumentStatsItemComponent, DocumentStatsSelectedComponent],
   imports: [
     CommonModule,
     DocumentStatsRoutingModule,
